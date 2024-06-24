@@ -1,0 +1,14 @@
+TileMap
+AnimatedSprite2D
+CollisionShape2D
+CharacterBody2D
+PointLight2D
+Sprite2D
+CanvasModulate
+DirectionalLight2D
+AnimationTree
+AnimationPlayer
+Camera2D
+PhantomCamera2D
+CollisionPolygon2D
+DampedSpringJoint2D
