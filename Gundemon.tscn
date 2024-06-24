@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dva4xf0vgr57j"]
+
+[ext_resource type="Script" path="res://wander.gd" id="1_cdcks"]
+[ext_resource type="Texture2D" uid="uid://chfn01ohqd8cg" path="res://nbfghnhfd.png" id="2_kc2py"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mesej"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_cdcks")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_mesej")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_kc2py")
